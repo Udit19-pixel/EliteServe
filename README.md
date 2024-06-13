@@ -14,7 +14,7 @@ A Customer Relationship Management application made to handle clients and teams 
 
 # Features
 
-##### The essential features of this project are -
+#### The essential features of this project are -
 - User Authentication and Authorization : User registration and login.
 - Administrator Page : Handling the users and clients that are created and managing the views and models accordingly.
 - Team Management : Easily manage the clients and leads and tranfer the leads to clients, managing the team.
