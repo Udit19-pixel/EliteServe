@@ -101,3 +101,7 @@ A Customer Relationship Management application made to handle clients and teams 
         docker compose build
         docker compose up
     ```
+- Successfully completing the steps would lead you to the following creation of the docker image :
+  <div align="center">
+   <img src="https://github.com/Udit19-pixel/EliteServe/blob/master/docker_image.png" alt="Project Logo" width="600" height="350">
+  </div>
