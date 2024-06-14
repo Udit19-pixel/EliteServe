@@ -24,8 +24,8 @@ A Customer Relationship Management application made to handle clients and teams 
 # Project Structure and Build
 
 ## Directory Structure
-- The Directory contains various types of models and respective views depending upon the requirements for each template.  
-
+- The Directory contains various types of models and respective views depending upon the requirements for each template.
+   ![Alt text](https://github.com/Udit19-pixel/EliteServe/blob/master/Project_Structure.png)
 
 ## Environment and Run Procedure
  - The first step is to create a virtual environment for the project and making that as running the activate.bat file present in the bin/Scripts folder. This is to activate the environment created (you might notice "(env)" before the directory path) -
