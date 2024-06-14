@@ -26,7 +26,7 @@ A Customer Relationship Management application made to handle clients and teams 
 ## Directory Structure
 - The Directory contains various types of models and respective views depending upon the requirements for each template.
 <div align="center">
-- <img src="https://github.com/Udit19-pixel/EliteServe/blob/master/Project_Structure.png" alt="Project Logo" width="280" height="300">
+ <img src="https://github.com/Udit19-pixel/EliteServe/blob/master/Project_Structure.png" alt="Project Logo" width="280" height="300">
 </div>
 
 ## Environment and Run Procedure
