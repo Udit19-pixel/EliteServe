@@ -73,5 +73,31 @@ A Customer Relationship Management application made to handle clients and teams 
  <img src="https://github.com/Udit19-pixel/EliteServe/blob/master/Homepage.png" alt="Project Logo" width="600" height="350">
 </div>
 
+# Dockerizing the application 
+- One of the features that was later added on to this project was to leverage the resources provided by docker to create a docker image which contains all the dependencies and configurations of the project.
 
-            
+- The first is to create a requirements.txt file which is done by the following command :
+
+    ```
+        pip freeze > requirements.txt
+    ```
+    - The contents of this file will be :
+        ```
+        asgiref==3.8.1
+        Django==3.2.17
+        django-cors-headers==4.3.1
+        python-decouple==3.8
+        python-dotenv==1.0.1
+        sqlparse==0.5.0
+        tzdata==2024.1
+        ```
+        
+- Then create a dockerfile and a docker-compose.yaml file for that contains instructions in order to create the image of the project.
+    - The dockerfile consists of the base image taken from docker hub (an online marketplace), work directory, copy instructions, run and expose and finally the execution command.
+    - The docker-compose.yaml is typically for better understanding of the dockerfile present in human readable format for better understanding.
+
+- Following are the commands that I used for creating a docker image :
+    ```
+        docker compose build
+        docker compose up
+    ```
