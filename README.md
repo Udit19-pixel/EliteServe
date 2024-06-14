@@ -70,7 +70,7 @@ A Customer Relationship Management application made to handle clients and teams 
 
 - After running the above command, following will be the homepage of the project -
 <div align="center">
- <img src="https://github.com/Udit19-pixel/EliteServe/blob/master/Homepage.png" alt="Project Logo" width="580" height="300">
+ <img src="https://github.com/Udit19-pixel/EliteServe/blob/master/Homepage.png" alt="Project Logo" width="600" height="350">
 </div>
 
 
