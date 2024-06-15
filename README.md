@@ -26,7 +26,7 @@ A Customer Relationship Management application made to handle clients and teams 
 ## Directory Structure
 - The Directory contains various types of models and respective views depending upon the requirements for each template.
 <div align="center">
- <img src="https://github.com/Udit19-pixel/EliteServe/blob/master/Project_Structure.png" alt="Project Logo" width="280" height="300">
+ <img src="https://github.com/Udit19-pixel/EliteServe/blob/master/Project_Structure.png" alt="Project Structure" width="280" height="300">
 </div>
 
 ## Environment and Run Procedure
@@ -70,7 +70,7 @@ A Customer Relationship Management application made to handle clients and teams 
 
 - After running the above command, following will be the homepage of the project -
 <div align="center">
- <img src="https://github.com/Udit19-pixel/EliteServe/blob/master/Homepage.png" alt="Project Logo" width="600" height="350">
+ <img src="https://github.com/Udit19-pixel/EliteServe/blob/master/Homepage.png" alt="Project homepage" width="600" height="350">
 </div>
 
 # Dockerizing the application 
@@ -103,5 +103,5 @@ A Customer Relationship Management application made to handle clients and teams 
     ```
 - Successfully completing the steps would lead you to the following creation of the docker image :
   <div align="center">
-   <img src="https://github.com/Udit19-pixel/EliteServe/blob/master/docker_image.png" alt="Project Logo" width="600" height="350">
+   <img src="https://github.com/Udit19-pixel/EliteServe/blob/master/docker_image.png" alt="Docker image" width="600" height="350">
   </div>
