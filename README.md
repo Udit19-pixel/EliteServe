@@ -92,9 +92,9 @@ A Customer Relationship Management application made to handle clients and teams 
         tzdata==2024.1
         ```
         
-- Then create a dockerfile and a docker-compose.yaml file for that contains instructions in order to create the image of the project.
+- Then create a dockerfile and a docker-compose.yml file for that contains instructions in order to create the image of the project.
     - The dockerfile consists of the base image taken from docker hub (an online marketplace), work directory, copy instructions, run and expose and finally the execution command.
-    - The docker-compose.yaml is typically for better understanding of the dockerfile present in human readable format for better understanding.
+    - The docker-compose.yml is typically for better understanding of the dockerfile present in human readable format for better understanding.
 
 - Following are the commands that I used for creating a docker image :
     ```
