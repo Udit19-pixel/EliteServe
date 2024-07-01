@@ -138,7 +138,7 @@ This project is deployed on Amazon Web Services (AWS) using a combination of pow
     - Configured Nginx to handle SSL/TLS termination for HTTPS connections.
 
 <div align="center">
-   <img src="https://github.com/Udit19-pixel/EliteServe/blob/master/django_nginx_gunicorn.png" alt="Django-Gunicorn-Nginx" width="680" height="350">
+   <img src="https://github.com/Udit19-pixel/EliteServe/blob/master/django_nginx_gunicorn.png" alt="Django-Gunicorn-Nginx" width="700" height="350">
   </div>
 
 ## Gunicorn
