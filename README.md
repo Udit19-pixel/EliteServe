@@ -105,3 +105,58 @@ A Customer Relationship Management application made to handle clients and teams 
   <div align="center">
    <img src="https://github.com/Udit19-pixel/EliteServe/blob/master/docker_image.png" alt="Docker image" width="600" height="350">
   </div>
+
+# Deployment on AWS
+This project is deployed on Amazon Web Services (AWS) using a combination of powerful tools and services to ensure high performance, security, and scalability.
+
+## Django Application Deployment
+- Cloned the project repository from GitHub onto the EC2 instance.
+- Set up a Python virtual environment to isolate project dependencies.
+- Installed required Python packages using pip and the project's requirements.txt file.
+- Configured Django settings for production environment
+(e.g., DEBUG=False, allowed hosts).
+- Collected static files using Django's collectstatic command.
+
+## AWS EC2 (Elastic Compute Cloud)
+- Virtual servers in the cloud for running applications.
+- Provides scalable compute capacity.
+- Offers various instance types optimized for different use cases.
+- Allows full control over the computing resources.
+- Configured security groups to allow inbound traffic on ports 80 (HTTP), 443 (HTTPS), and 22 (SSH).
+
+## Nginx
+- High-performance, open-source web server and reverse proxy.
+- Known for its high concurrency, low resource usage, and ability to handle large numbers of connections.
+- Can serve static content directly, reducing load on application servers.
+- Acts as a reverse proxy, forwarding dynamic requests to application servers.
+
+- Setting up Nginx :
+    - Installed Nginx on the EC2 instance.
+    - Configured Nginx as a reverse proxy to forward requests to Gunicorn.
+    - Set up Nginx to serve static files directly, improving performance.
+    - Created a server block (virtual host) for the Django application.
+    - Configured Nginx to handle SSL/TLS termination for HTTPS connections.
+
+## Gunicorn
+- Python WSGI HTTP Server for UNIX.
+- Designed to serve Python web applications.
+- Supports various web frameworks, including Django.
+- Offers good performance and is easy to configure.
+
+- Setting up Gunicorn :
+    - Installed Gunicorn in the project's virtual environment
+    - Created a gunicorn.socket file for socket activation
+    - Set up a gunicorn.service file for systemd to manage Gunicorn processes.
+    - Configured Gunicorn to run with 3 worker processes for handling concurrent requests.
+    - Enabled and started the Gunicorn service for automatic startup on system boot.
+
+## Cloudflare
+- Global Content Delivery Network (CDN) and DDoS protection service.
+- Improves website performance by caching content closer to users.
+- Provides SSL/TLS encryption for secure HTTPS connections.
+- Offers additional security features like Web Application Firewall (WAF).
+
+-   Setting up Cloudflare :
+    - Added the domain to Cloudflare and updated nameservers with the domain registrar.
+    - Enabled Cloudflare's Flexible SSL mode for encryption between clients and Cloudflare.
+    - Obtained an SSL certificate from Cloudflare for secure communication.
