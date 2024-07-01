@@ -137,6 +137,10 @@ This project is deployed on Amazon Web Services (AWS) using a combination of pow
     - Created a server block (virtual host) for the Django application.
     - Configured Nginx to handle SSL/TLS termination for HTTPS connections.
 
+<div align="center">
+   <img src="https://github.com/Udit19-pixel/EliteServe/blob/master/django_nginx_gunicorn.png" alt="Django-Gunicorn-Nginx" width="600" height="350">
+  </div>
+
 ## Gunicorn
 - Python WSGI HTTP Server for UNIX.
 - Designed to serve Python web applications.
